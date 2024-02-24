@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 3e34a910418ea8e4a847587620d4d3a8
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 3e042fcd50a03d248b54a5e9e5f74969, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Hips' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 1
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Caseoh(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube
+      parentName: Caseoh(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.1, y: 0.05772241, z: 0.1}
+    - name: Cylinder
+      parentName: Caseoh(Clone)
+      position: {x: -0.0012014039, y: 0.0007293185, z: 0}
+      rotation: {x: -0.40110987, y: -0.40110984, z: 0.5823323, w: 0.58233225}
+      scale: {x: 0.025303453, y: 0.025303453, z: 0.045187954}
+    - name: Cylinder.001
+      parentName: Caseoh(Clone)
+      position: {x: -0.0019987784, y: 0.0007293185, z: 0}
+      rotation: {x: 0.5801244, y: 0.5801243, z: -0.40429655, w: -0.40429664}
+      scale: {x: 0.025303453, y: 0.025303453, z: 0.045187954}
+    - name: Cube.001
+      parentName: Caseoh(Clone)
+      position: {x: -0.0026241406, y: 0.00070349046, z: -0.000238782}
+      rotation: {x: -0.6926249, y: -0.14237517, z: -0.14237517, w: 0.692625}
+      scale: {x: 0.020831157, y: 0.020831157, z: 0.020831157}
+    - name: Cylinder.002
+      parentName: Caseoh(Clone)
+      position: {x: 0.0012023115, y: 0.0007293185, z: -7.2597865e-11}
+      rotation: {x: 0.4252594, y: 0.42525938, z: 0.56493753, w: 0.5649376}
+      scale: {x: 0.025303453, y: 0.025303453, z: 0.045187954}
+    - name: Cylinder.003
+      parentName: Caseoh(Clone)
+      position: {x: 0.0020193723, y: 0.0007293185, z: 7.968965e-12}
+      rotation: {x: 0.5732833, y: 0.5732833, z: 0.41393995, w: 0.4139399}
+      scale: {x: 0.025303453, y: 0.025303453, z: 0.045187954}
+    - name: Cube.002
+      parentName: Caseoh(Clone)
+      position: {x: 0.0026596873, y: 0.0007001026, z: -0.00022047026}
+      rotation: {x: 0.13369018, y: 0.6943536, z: 0.69435364, w: -0.13369018}
+      scale: {x: 0.020831157, y: 0.020831157, z: 0.020831157}
+    - name: Cylinder.004
+      parentName: Caseoh(Clone)
+      position: {x: 0.000617365, y: -0.0015527634, z: -7.2597865e-11}
+      rotation: {x: 0.000000053385083, y: 0.7071068, z: -0.7071067, w: -0.000000053385072}
+      scale: {x: 0.0313847, y: 0.0313847, z: 0.056048084}
+    - name: Cylinder.005
+      parentName: Caseoh(Clone)
+      position: {x: -0.00052028336, y: -0.0015527634, z: -7.2597865e-11}
+      rotation: {x: 0.000000053385083, y: 0.7071068, z: -0.7071067, w: -0.000000053385072}
+      scale: {x: 0.0313847, y: 0.0313847, z: 0.056048084}
+    - name: Cylinder.006
+      parentName: Caseoh(Clone)
+      position: {x: 0.000617365, y: -0.0023308077, z: -7.2597865e-11}
+      rotation: {x: 0.000000053385083, y: 0.7071068, z: -0.7071067, w: -0.000000053385072}
+      scale: {x: 0.0313847, y: 0.0313847, z: 0.056048084}
+    - name: Cylinder.007
+      parentName: Caseoh(Clone)
+      position: {x: -0.00052028336, y: -0.0023308077, z: -7.2597865e-11}
+      rotation: {x: 0.000000053385083, y: 0.7071068, z: -0.7071067, w: -0.000000053385072}
+      scale: {x: 0.0313847, y: 0.0313847, z: 0.056048084}
+    - name: Cylinder.008
+      parentName: Caseoh(Clone)
+      position: {x: 0.00061736495, y: -0.0025190092, z: -0.00025038313}
+      rotation: {x: -0.00000007549791, y: 0.000000021855696, z: 1, w: -0.0000000754979}
+      scale: {x: 0.022503322, y: 0.015501424, z: 0.02768308}
+    - name: Cylinder.009
+      parentName: Caseoh(Clone)
+      position: {x: -0.000529381, y: -0.0025190092, z: -0.00025038313}
+      rotation: {x: -0.00000007549791, y: 0.000000021855696, z: 1, w: -0.0000000754979}
+      scale: {x: 0.022503322, y: 0.015501424, z: 0.02768308}
+    - name: Cube.003
+      parentName: Caseoh(Clone)
+      position: {x: -0, y: 0.001552673, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.06614326, y: 0.06614326, z: 0.06614326}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
