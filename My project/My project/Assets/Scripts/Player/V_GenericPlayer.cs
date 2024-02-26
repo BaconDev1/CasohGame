@@ -29,6 +29,13 @@ public class V_GenericPlayer : MonoBehaviour
     [HideInInspector] public bool LockCursor = true;
     #endregion
 
+    [Header("Interactions")]
+    [Space(5)]
+    public GameObject WaffleToSpawn;
+    public Transform InteractionPoint;
+    public bool IsHoldingWaffle;
+    
+
     CharacterController characterController;
     void Start()
     {
@@ -90,5 +97,11 @@ public class V_GenericPlayer : MonoBehaviour
         }
 
         #endregion
+    }
+
+    public void SpawnWaffleInHand(GameObject ObjToSpawn)
+    {
+        Instantiate(ObjToSpawn, InteractionPoint.position, Quaternion.identity, InteractionPoint);
+
     }
 }
